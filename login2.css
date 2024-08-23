@@ -1,0 +1,81 @@
+.cuadro{
+    background-color: white;
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+}
+body{
+    background-image:url(wp2555218.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0%;
+}
+.imagen {
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+justify-content: flex-end;
+}
+.universidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login{
+    width: 67.7%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    width: 90%;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 5px;
+}
+input{
+    border: none;
+}
+.empty{
+    height: 20px;
+}
+
+button{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+
+}
+.forgot{
+    background:none ;
+    width: 150px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.frente{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 250px;
+}
